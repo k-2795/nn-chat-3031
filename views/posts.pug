@@ -10,6 +10,15 @@ html(lang="ja")
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css")
     link(rel="stylesheet" href="style.css")
     title NNチャット
+  // Google tag (gtag.js)
+  // Google tag (gtag.js)
+  script(async src="https://www.googletagmanager.com/gtag/js?id=G-YCTCFVKQXM")
+  script.
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YCTCFVKQXM');
   body.container.overflow-scroll(data-bs-theme=currentTheme)
     nav.navbar.fixed-top.bg-primary
       div.container-fluid
